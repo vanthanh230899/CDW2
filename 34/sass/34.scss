@@ -1,0 +1,126 @@
+$primary-color: #42ccaf;
+$defaut-color: #333333;
+$font-family: "Poppins";
+.type-34{
+    position: relative;
+    margin: 20px 0;
+    .magin-row{
+        margin: 30px -15px;
+    }
+    .tab-pane{
+        .navbar-tabs{
+            text-transform: uppercase;
+            padding: 0;
+            border-bottom: 2px solid rgba($color: $defaut-color, $alpha: 0.2);
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-right: 10px;
+                font-weight: 600;
+                font-size: 24px;
+                position: relative;
+                .tablinks{
+                    cursor: pointer;
+                }
+                .tablinks:hover{
+                    color: $primary-color;
+                    transition: all ease-in 0.2s;
+                    list-style: none;
+                }
+               .active{
+                    color: $primary-color;
+                }
+                .active::after{
+                    content: "";
+                    display: block;
+                    width: 50px;
+                    height: 2px;
+                    background-color: $primary-color;
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                }
+            }
+       }
+       .tabcontent{
+           display: none;
+        .tab1{
+            .tab1-item{
+                padding-bottom: 10px;
+                .selection{
+                    width: 100%;
+                    height: 30px;
+                }
+                .slider-ranges{
+                    background: $primary-color;
+                    border: none;
+                }
+                .amount{
+                    border: none;
+                    width: 100%;
+                    cursor: unset;
+                }
+                .amount:focus{
+                    border: none;
+                    outline: none;
+                }
+                .keyword{
+                    width: 100%;
+                }
+            }
+        }
+        .tab2{
+            .finput{
+                width: 100%;
+                height: 30px;
+            }
+            .selection{
+                width: 75%;
+                height: 30px;
+            }
+            .selection-radius-search{
+                width: 100%;
+                height: 30px;
+            }
+        }
+        .tab3{
+        }
+        .tab4{
+            .selection{
+                width: 100%;
+                height: 30px;
+            }
+            .content{
+                display: flex;
+                .metter{
+                    width: 100px;
+                    height: 30px;
+                }
+                p{
+                    margin: 0 10px;
+                }
+            }
+        }
+       }
+    }
+    .footer{
+        text-align: right;
+        .bSearch{
+            background: $primary-color;
+            color: #fff;
+            border: none;
+            padding: 8px 20px;
+            font-size: 16px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .bReset{
+            background: $defaut-color;
+            color: #fff;
+            border: none;
+            padding: 8px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    }
+}

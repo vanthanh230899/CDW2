@@ -1,0 +1,45 @@
+$font-family : Poppins;
+$primary-color : #42ccaf;
+$defaut-color : #636363;
+$margin-bottom: 20px;
+.type-20{
+    position: relative;
+    font-family: $font-family;
+    .date_update{
+        i{
+            color: $defaut-color;
+            font-size: 12px;
+        }
+        p{
+            display: inline-block;
+            color: #959595;
+            font-size: 12px;
+        }
+    }
+    .img-arrow{
+        position: absolute;
+        top: 5%;
+        right: 10%;
+    }
+    .body{
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+        margin-bottom: $margin-bottom;
+        .image-border{
+          display: flex;
+          justify-content: center;
+        }
+    }
+    ul{
+        li{
+            a{
+                color: $primary-color;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #FF9C00;
+                transition: all ease 0.4s;
+            }
+        }
+      
+    }
+}

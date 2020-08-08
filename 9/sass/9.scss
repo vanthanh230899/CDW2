@@ -1,0 +1,65 @@
+$font-family : Poppins;
+$primary-color : #42ccaf;
+$defaut-color : #636363;
+$line-height: 16px;
+$padding: 10px;
+$font-size: 18px;
+
+.type-9{
+    box-sizing: border-box;
+    overflow: hidden;
+    .header-blog {
+        padding: $padding 0;
+        text-align: center;
+        font-size: 24px;
+        color: #363636;
+        font-weight: 500;
+        display: table;
+        white-space: nowrap;
+        &:before,
+        &:after {
+            border-top: 1px solid #e5e5e5;
+            content: '';
+            display: table-cell;
+            position: relative;
+            top: 15px;
+            width: 45%;
+        }
+    }
+    .blog{
+        text-align: right;
+        margin: 10px 0;
+        .blog-thumbnail{
+            border: none;
+            padding: 0 ;
+            width: 100%;
+        }
+        .blog-title{
+            display: inline-block;
+            text-decoration: none;
+            color: $primary-color;
+            font-size: $font-size;
+            padding: $padding 0;
+        }
+        .blog-title:hover{
+            color: #FF9C00;
+            transition: all ease 0.5s;
+        }
+        .blog-content{
+            opacity: 0.8;
+        }
+        .blog-footer{
+            padding: $padding 0;
+            border-top: 1px solid rgba($defaut-color,0.5);
+            border-bottom: 1px solid rgba($defaut-color,0.5);
+            a{
+                text-decoration: none;
+                color: $primary-color;
+            }
+            a:hover{
+                color: #ff9c00;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+}

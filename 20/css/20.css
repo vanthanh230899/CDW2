@@ -1,0 +1,26 @@
+.type-20 {
+  position: relative;
+  font-family: Poppins; }
+  .type-20 .date_update i {
+    color: #636363;
+    font-size: 12px; }
+  .type-20 .date_update p {
+    display: inline-block;
+    color: #959595;
+    font-size: 12px; }
+  .type-20 .img-arrow {
+    position: absolute;
+    top: 5%;
+    right: 10%; }
+  .type-20 .body {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; }
+    .type-20 .body .image-border {
+      display: flex;
+      justify-content: center; }
+  .type-20 ul li a {
+    color: #42ccaf;
+    text-decoration: none; }
+  .type-20 ul li a:hover {
+    color: #FF9C00;
+    transition: all ease 0.4s; }

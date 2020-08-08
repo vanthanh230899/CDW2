@@ -1,0 +1,28 @@
+.type-24 {
+  overflow: hidden;
+  box-sizing: border-box; }
+  .type-24 .headline {
+    margin-top: 20px; }
+  .type-24 i {
+    font-size: 12px;
+    color: #959595; }
+  .type-24 span {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #959595; }
+    .type-24 .articleBody .article-content {
+      margin-bottom: 30px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+      .type-24 .articleBody .article-content .description {
+        text-align: center; }
+    .type-24 .articleBody .button {
+      text-align: center; }
+      .type-24 .articleBody .button button {
+        border: none;
+        background-color: #5cb85c;
+        border-radius: 5px;
+        color: #fff;
+        padding: 5px 10px; }
+      .type-24 .articleBody .button button:hover {
+        background-color: #4cae4c;
+        transition: all ease-in 0.2s; }

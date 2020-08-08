@@ -1,0 +1,88 @@
+.type-34 {
+  position: relative;
+  margin: 20px 0; }
+  .type-34 .magin-row {
+    margin: 30px -15px; }
+    .type-34 .tab-pane .navbar-tabs {
+      text-transform: uppercase;
+      padding: 0;
+      border-bottom: 2px solid rgba(51, 51, 51, 0.2); }
+      .type-34 .tab-pane .navbar-tabs li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        position: relative; }
+        .type-34 .tab-pane .navbar-tabs li .tablinks {
+          cursor: pointer; }
+        .type-34 .tab-pane .navbar-tabs li .tablinks:hover {
+          color: #42ccaf;
+          transition: all ease-in 0.2s;
+          list-style: none; }
+        .type-34 .tab-pane .navbar-tabs li .active {
+          color: #42ccaf; }
+        .type-34 .tab-pane .navbar-tabs li .active::after {
+          content: "";
+          display: block;
+          width: 50px;
+          height: 2px;
+          background-color: #42ccaf;
+          position: absolute;
+          bottom: -2px;
+          left: 0; }
+    .type-34 .tab-pane .tabcontent {
+      display: none; }
+      .type-34 .tab-pane .tabcontent .tab1 .tab1-item {
+        padding-bottom: 10px; }
+        .type-34 .tab-pane .tabcontent .tab1 .tab1-item .selection {
+          width: 100%;
+          height: 30px; }
+        .type-34 .tab-pane .tabcontent .tab1 .tab1-item .slider-ranges {
+          background: #42ccaf;
+          border: none; }
+        .type-34 .tab-pane .tabcontent .tab1 .tab1-item .amount {
+          border: none;
+          width: 100%;
+          cursor: unset; }
+        .type-34 .tab-pane .tabcontent .tab1 .tab1-item .amount:focus {
+          border: none;
+          outline: none; }
+        .type-34 .tab-pane .tabcontent .tab1 .tab1-item .keyword {
+          width: 100%; }
+    .type-34 .tab-pane .tabcontent .tab2 .finput {
+      width: 100%;
+      height: 30px; }
+    .type-34 .tab-pane .tabcontent .tab2 .selection {
+      width: 75%;
+      height: 30px; }
+    .type-34 .tab-pane .tabcontent .tab2 .selection-radius-search {
+      width: 100%;
+      height: 30px; }
+  .type-34 .tab-pane .tabcontent .tab4 .selection {
+    width: 100%;
+    height: 30px; }
+  .type-34 .tab-pane .tabcontent .tab4 .content {
+    display: flex; }
+    .type-34 .tab-pane .tabcontent .tab4 .content .metter {
+      width: 100px;
+      height: 30px; }
+    .type-34 .tab-pane .tabcontent .tab4 .content p {
+      margin: 0 10px; }
+  .type-34 .footer {
+    text-align: right; }
+    .type-34 .footer .bSearch {
+      background: #42ccaf;
+      color: #fff;
+      border: none;
+      padding: 8px 20px;
+      font-size: 16px;
+      margin-right: 10px;
+      border-radius: 5px; }
+    .type-34 .footer .bReset {
+      background: #333333;
+      color: #fff;
+      border: none;
+      padding: 8px 20px;
+      font-size: 16px;
+      border-radius: 5px; }
